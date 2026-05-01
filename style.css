@@ -177,7 +177,25 @@ main {
   color: var(--muted);
   font-size: 0.875rem;
   font-weight: 400;
-  margin-bottom: 1.35rem;
+  margin-bottom: 0.3rem;
+}
+
+.location {
+  font-size: 0.825rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.location a {
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1px;
+}
+
+.location a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
 }
 
 .bio {
@@ -213,6 +231,18 @@ main {
   color: var(--accent);
   border-color: var(--accent-mid);
   text-decoration: none;
+}
+
+/* ── About block ─────────────────────────────────── */
+
+.about {
+  padding-top: 2rem;
+  margin-bottom: 2.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.about .bio:last-child {
+  margin-bottom: 0;
 }
 
 /* ── Section headings ────────────────────────────── */
